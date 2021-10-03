@@ -1,0 +1,157 @@
+footer.infoweb.footer {
+    margin-top: auto;
+    padding: 0;
+    text-align: left
+}
+
+footer.infoweb.footer section a,
+footer.infoweb.footer section div,
+footer.infoweb.footer section p {
+    grid-column: auto
+}
+
+footer.infoweb.footer .bottom-navigation {
+    background-color: #257406;
+    padding: 32px 16px
+}
+
+@media screen and (min-width: 481px) {
+    footer.infoweb.footer .bottom-navigation {
+        padding: 40px 24px
+    }
+}
+
+footer.infoweb.footer .bottom-navigation .bottom-menu-container {
+    max-width: 960px;
+    margin: auto
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 26px;
+    grid-column: 1/span 12
+}
+
+@media screen and (min-width: 769px) {
+    footer.infoweb.footer .bottom-navigation .menu-parts {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts a {
+    color: #fff;
+    display: block
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts a.first-level-content {
+    font-family: "Circular", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    text-underline-offset: 4.14px;
+    text-decoration-thickness: 1.44px
+}
+
+@media screen and (min-width: 769px) {
+    footer.infoweb.footer .bottom-navigation .menu-parts a.first-level-content {
+        font-size: 1.25rem;
+        text-decoration: underline;
+        text-underline-offset: 4.6px;
+        text-decoration-thickness: 1.6px
+    }
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts a.second-level-content {
+    font-family: "Circular", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 3.68px;
+    text-decoration-thickness: 1.28px;
+    margin-top: 12px;
+    line-height: 1.375
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+footer.infoweb.footer .bottom-navigation .menu-parts li {
+    padding: 0
+}
+
+footer.infoweb.footer .bottom-footer {
+    padding: 32px 16px
+}
+
+@media screen and (min-width: 481px) {
+    footer.infoweb.footer .bottom-footer {
+        padding: 40px 24px
+    }
+}
+
+footer.infoweb.footer .bottom-footer .page-footer {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 24px
+}
+
+@media screen and (min-width: 769px) {
+    footer.infoweb.footer .bottom-footer .page-footer {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column h2 {
+    font-family: "Circular", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, .87)
+}
+
+@media screen and (min-width: 769px) {
+    footer.infoweb.footer .bottom-footer .page-footer .footer-column h2 {
+        font-size: 1.25rem
+    }
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 1rem
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column.linkstyle a {
+    font-family: "Circular", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 3.68px;
+    text-decoration-thickness: 1.28px
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column.linkstyle a[href^=http]:not([href*="antagning.pk"]):not([href*="uniadmissions.pk"]) {
+    background: url("#") center right no-repeat;
+    padding-right: 28px
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column.icon-column {
+    max-width: 200px
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column.icon-column a {
+    text-decoration: none
+}
+
+footer.infoweb.footer .bottom-footer .page-footer .footer-column.icon-column a .uhrlogo {
+    height: 50px
+}
