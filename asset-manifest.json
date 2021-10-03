@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/uniadmission/static/css/main.a617e044.chunk.css",
-    "main.js": "/uniadmission/static/js/main.43e9268c.chunk.js",
-    "main.js.map": "/uniadmission/static/js/main.43e9268c.chunk.js.map",
-    "runtime-main.js": "/uniadmission/static/js/runtime-main.f645e6f0.js",
-    "runtime-main.js.map": "/uniadmission/static/js/runtime-main.f645e6f0.js.map",
-    "static/js/2.0f88f274.chunk.js": "/uniadmission/static/js/2.0f88f274.chunk.js",
-    "static/js/2.0f88f274.chunk.js.map": "/uniadmission/static/js/2.0f88f274.chunk.js.map",
-    "static/js/3.62bef381.chunk.js": "/uniadmission/static/js/3.62bef381.chunk.js",
-    "static/js/3.62bef381.chunk.js.map": "/uniadmission/static/js/3.62bef381.chunk.js.map",
+    "main.css": "/uniadmission/static/css/main.cbbe280f.chunk.css",
+    "main.js": "/uniadmission/static/js/main.cfec7faa.chunk.js",
+    "main.js.map": "/uniadmission/static/js/main.cfec7faa.chunk.js.map",
+    "runtime-main.js": "/uniadmission/static/js/runtime-main.6d37247d.js",
+    "runtime-main.js.map": "/uniadmission/static/js/runtime-main.6d37247d.js.map",
+    "static/js/2.b194a80a.chunk.js": "/uniadmission/static/js/2.b194a80a.chunk.js",
+    "static/js/2.b194a80a.chunk.js.map": "/uniadmission/static/js/2.b194a80a.chunk.js.map",
+    "static/js/3.b7d0759a.chunk.js": "/uniadmission/static/js/3.b7d0759a.chunk.js",
+    "static/js/3.b7d0759a.chunk.js.map": "/uniadmission/static/js/3.b7d0759a.chunk.js.map",
     "index.html": "/uniadmission/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/uniadmission/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.0f88f274.chunk.js.LICENSE.txt": "/uniadmission/static/js/2.0f88f274.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/uniadmission/static/media/logo.6ce24c58.svg"
+    "static/css/main.cbbe280f.chunk.css.map": "/uniadmission/static/css/main.cbbe280f.chunk.css.map",
+    "static/js/2.b194a80a.chunk.js.LICENSE.txt": "/uniadmission/static/js/2.b194a80a.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/uniadmission/static/media/whiteup.4c187ddf.svg",
+    "static/media/App.scss": "/uniadmission/static/media/work_outline.f6e15701.svg",
+    "static/media/article1.964d4aa7.jpg": "/uniadmission/static/media/article1.964d4aa7.jpg",
+    "static/media/article2.371894b1.jpg": "/uniadmission/static/media/article2.371894b1.jpg",
+    "static/media/article3.55dcd549.jpg": "/uniadmission/static/media/article3.55dcd549.jpg",
+    "static/media/bottom.5d010ad6.svg": "/uniadmission/static/media/bottom.5d010ad6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f645e6f0.js",
-    "static/js/2.0f88f274.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.43e9268c.chunk.js"
+    "static/js/runtime-main.6d37247d.js",
+    "static/js/2.b194a80a.chunk.js",
+    "static/css/main.cbbe280f.chunk.css",
+    "static/js/main.cfec7faa.chunk.js"
   ]
 }
