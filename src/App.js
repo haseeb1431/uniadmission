@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
@@ -15,16 +14,9 @@ function App() {
       
       <Header/>
       <HeroSection/>
+
       <Home />
-
-      <header className="App-header">
-        
-        <h2>
-          Edit <code>src/App.js</code> and save to reload.
-        </h2>
-
-      </header>
-
+      
       <Footer />
     </div>
   );

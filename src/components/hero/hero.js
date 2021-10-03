@@ -1,9 +1,11 @@
 import React from 'react';
-//import "../../page-settings.css";
+
 
 const HeroSection = () => (
 
-    <form id="search_initial" class="education-search hero-image startpage international" role="search" method="get" action="redirect-page.html">
+   
+<form id="search_initial" class="education-search hero-image startpage international" role="search" method="get" action="redirect-page.html">
+    
     <div class="content">
         <h1><span class="multiline-highlight">Apply to courses and programmes in all of <span
                     class="Pakistan">Pakistan</span></span>

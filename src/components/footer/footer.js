@@ -2,6 +2,9 @@ import React from 'react';
 import './footer.css';
 
 
+import unilogo from '../../images/designsystem/logo/unilogo.png';
+
+
 const Footer = () => (
     <footer class="infoweb footer">
         
@@ -126,7 +129,9 @@ const Footer = () => (
                 <p><a href="redirect-page.html">Cookies</a></p>
             </div>
             <div class="footer-column icon-column">
-                <a href="#"><img loading="lazy" src="../images/designsystem/logo/unilogo.png" alt="Higher Education Commission" class="uhrlogo"/></a>
+                <a href={process.env.PUBLIC_URL}>
+                    <img loading="lazy" src={unilogo} alt="Higher Education Commission" class="uhrlogo"/>
+                </a>
             </div>
         </section>
     </div>

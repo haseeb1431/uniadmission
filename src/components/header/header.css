@@ -814,7 +814,7 @@
 }
 
 .infoweb .image-link-block a.wrapping-link[href^=http]:not([href*="antagning.se"]):not([href*="uniadmissions.pk"]) .image-text {
-    /* background: url("") center right no-repeat; */
+    background: url("") center right no-repeat;
     padding-right: 28px;
     background-color: rgba(0, 0, 0, .67);
     background-position: right 16px bottom 16px
@@ -929,7 +929,7 @@
 }
 
 .infoweb .expandable-block .expandable-heading {
-    /* background: url("/images/designsystem/Assest/positive.svg") left top no-repeat; */
+    background: url("../../images/designsystem/Assest/positive.svg") left top no-repeat;
     padding-left: 30px;
     font-family: "Circular", Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -1065,7 +1065,7 @@
 .infoweb .buttonlike_arrow.expand-button.calculator-toggle,
 .infoweb .buttonlike_arrow_back.expand-button.calculator-toggle {
     margin-top: 0;
-    /* background: url("/images/designsystem/Assest/Whitedown.svg") no-repeat right 12px center; */
+    background: url("../../images/designsystem/Assest/Whitedown.svg") no-repeat right 12px center;
     padding-right: 44px;
     border-radius: 0;
     background-color: rgba(0, 110, 150, .87);
@@ -1080,7 +1080,7 @@
 .infoweb .buttonlike.expand-button.calculator-toggle.expanded,
 .infoweb .buttonlike_arrow.expand-button.calculator-toggle.expanded,
 .infoweb .buttonlike_arrow_back.expand-button.calculator-toggle.expanded {
-    /* background: url("/images/designsystem/Assest/whiteup.svg") no-repeat right 12px center; */
+    background: url("../../images/designsystem/Assest/whiteup.svg") no-repeat right 12px center;
     background-color: rgba(0, 110, 150, .87)
 }
 
@@ -1090,7 +1090,7 @@
 .infoweb .buttonlike.expand-button.calculator-toggle.purple-toggle,
 .infoweb .buttonlike_arrow.expand-button.calculator-toggle.purple-toggle,
 .infoweb .buttonlike_arrow_back.expand-button.calculator-toggle.purple-toggle {
-    /* background: url("/images/designsystem/Assest/blackdown.svg") no-repeat right 12px center; */
+    background: url("../../images/designsystem/Assest/blackdown.svg") no-repeat right 12px center;
     background-color: rgba(98, 38, 158, .2);
     color: #000;
     -webkit-box-shadow: none;
@@ -1103,7 +1103,7 @@
 .infoweb .buttonlike.expand-button.calculator-toggle.purple-toggle.expanded,
 .infoweb .buttonlike_arrow.expand-button.calculator-toggle.purple-toggle.expanded,
 .infoweb .buttonlike_arrow_back.expand-button.calculator-toggle.purple-toggle.expanded {
-    /* background: url("/images/designsystem/Assest/blackup.svg") no-repeat right 12px center; */
+    background: url("../../images/designsystem/Assest/blackup.svg") no-repeat right 12px center;
     background-color: rgba(98, 38, 158, .2)
 }
 
@@ -1113,7 +1113,7 @@
 .infoweb .buttonlike.expand-button.showmorehits,
 .infoweb .buttonlike_arrow.expand-button.showmorehits,
 .infoweb .buttonlike_arrow_back.expand-button.showmorehits {
-    /* background: url("/images/designsystem/Assest/bluedown.svg") no-repeat right 12px center; */
+    background: url("../../images/designsystem/Assest/bluedown.svg") no-repeat right 12px center;
     padding-right: 44px;
     color: #006e96;
     width: auto;
@@ -1126,7 +1126,7 @@
 .infoweb .buttonlike.expand-button.showmorehits.expanded,
 .infoweb .buttonlike_arrow.expand-button.showmorehits.expanded,
 .infoweb .buttonlike_arrow_back.expand-button.showmorehits.expanded {
-    /* background: url("/images/designsystem/Assest/blueup.svg") no-repeat right 12px center */
+    background: url("../../images/designsystem/Assest/blueup.svg") no-repeat right 12px center
 }
 
 .infoweb .contained-button.expand-button.showmorehits:hover,
@@ -1251,7 +1251,7 @@
 
 .infoweb .menu-button.selection-button {
     position: relative;
-    /* background: url(/images/designsystem/Assest/briefcase.svg) no-repeat center 12px; */
+    background: url(../../images/designsystem/Assest/briefcase.svg) no-repeat center 12px;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -1267,7 +1267,7 @@
 }
 
 .infoweb .menu-button.selection-button.has-selection {
-    /* background: url(/images/designsystem/Assest/briefcaseblack.svg) no-repeat center 12px */
+    background: url(../../images/designsystem/Assest/briefcaseblack.svg) no-repeat center 12px
 }
 
 .infoweb .menu-button.selection-button.has-selection .notification-selection-counter {
@@ -1449,7 +1449,7 @@
     display: inline-block;
     padding-left: 28px;
     padding-top: 12px;
-    /* background: url("/images/designsystem/Assest/leftarw.svg") bottom left no-repeat */
+    background: url("../../images/designsystem/Assest/leftarw.svg") bottom left no-repeat
 }
 
 @media screen and (min-width: 769px) {

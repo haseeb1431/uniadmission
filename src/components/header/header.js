@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-//import './page-settings.css';
 
+import unilogo from '../../images/designsystem/logo/unilogo.png';
 
 
 const Header = () => (
@@ -9,10 +9,10 @@ const Header = () => (
 <header>
     {/* <!-- Logo Section Start --> */}
     <div id="header" class="header">
-    <a href="Landing page.html" class="a-logo">
+    <a href={process.env.PUBLIC_URL} class="a-logo">
         <picture>
-            <source media="(max-width:350px)" srcset="/images/designsystem/logo/unilogo.png" />
-            <img src="../images/designsystem/logo/unilogo.png" alt="To startpage" />
+            <source media="(max-width:350px)" srcset={unilogo} />
+            <img src={unilogo} alt="To startpage" />
         </picture>
     </a>
     {/* <!-- Logo Section End --> */}

@@ -1,5 +1,12 @@
 import React from 'react';
-import "./page-settings.css";
+//import "./home.css";
+
+
+import bottomPicSVG from '../../images/designsystem/bottom-pic/bottom.svg';
+import imgArticle1 from '../../images/designsystem/bottom-pic/article1.jpg';
+import imgArticle2 from '../../images/designsystem/bottom-pic/article2.jpg';
+import imgArticle3 from '../../images/designsystem/bottom-pic/article3.jpg';
+
 
 const Home = () => (
 
@@ -81,8 +88,8 @@ const Home = () => (
             <div class="image-link-block">
                 <a href="redirect-page.html" class="wrapping-link">
                     <picture>
-                        <source sizes="960px" srcset="../images/designsystem/Bottom-pic/bottom.svg?format=webp&width=960&quality=80 960w" type="image/webp" />
-                        <source sizes="960px" srcset="../images/designsystem/Bottom-pic/bottom.svg?width=960&quality=80 960w" />
+                        <source sizes="960px" srcset={bottomPicSVG+"?format=webp&width=960&quality=80 960w"} type="image/webp" />
+                        <source sizes="960px" srcset={bottomPicSVG+"?width=960&quality=80 960w"} />
                         <img alt="" class="image-link" loading="lazy" src="../images/designsystem/Bottom-pic/bottom.svg?width=960&amp;quality=80" />
                     </picture>
                     <div class="image-text">
@@ -94,6 +101,7 @@ const Home = () => (
             </div>
         </div>
     </div>
+    
     {/* <!-- Frequently Asked question --> */}
     <div class="faq-questions-contents">
         <div class="startpage-questions-heading">
@@ -443,11 +451,10 @@ const Home = () => (
             <a class="teaser-link" href="redirect-page.html">
                 <div class="image-container">
                     <picture>
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article1.jpg?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article1.jpg?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article1.jpg?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle1+"?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle1 +"?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w", imgArticle1+"?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"}
                             type="image/webp" />
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article1.jpg?width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article1.jpg?width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article1.jpg?width=304&mode=crop&heightratio=0.75&quality=80 304w"
-                        />
-                        <img alt="" class="teaser-image" loading="lazy" src="..../images/designsystem/Bottom-pic/article1.jpg?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80" />
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle1+"?width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle1+"?width=340&mode=crop&heightratio=0.75&quality=80 340w", imgArticle1+"?width=304&mode=crop&heightratio=0.75&quality=80 304w"} />
+                        <img alt="" class="teaser-image" loading="lazy" src="../../images/designsystem/Bottom-pic/article1.jpg?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80" />
                     </picture>
                 </div>
                 <div class="teaser-text">
@@ -460,11 +467,11 @@ const Home = () => (
             <a class="teaser-link" href="redirect-page.html">
                 <div class="image-container">
                     <picture>
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article2.jpg?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article2.jpg?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article2.jpg?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle2+"?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle2+"?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w", imgArticle2+"?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"}
                             type="image/webp" />
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article2.jpg?width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article2.jpg?width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article2.jpg?width=304&mode=crop&heightratio=0.75&quality=80 304w"
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle2+"?width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle2+"?width=340&mode=crop&heightratio=0.75&quality=80 340w",imgArticle2+"?width=304&mode=crop&heightratio=0.75&quality=80 304w"}
                         />
-                        <img alt="" class="teaser-image" loading="lazy" src="..../images/designsystem/Bottom-pic/article2.jpg?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80" />
+                        <img alt="" class="teaser-image" loading="lazy" src={imgArticle2+"?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80"} />
                     </picture>
                 </div>
                 <div class="teaser-text">
@@ -477,11 +484,11 @@ const Home = () => (
             <a class="teaser-link" href="redirect-page.html">
                 <div class="image-container">
                     <picture>
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article3.jpg?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article3.jpg?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article3.jpg?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle3+"?format=webp&width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle3+"?format=webp&width=340&mode=crop&heightratio=0.75&quality=80 340w", imgArticle3+"?format=webp&width=304&mode=crop&heightratio=0.75&quality=80 304w"}
                             type="image/webp" />
-                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset="../images/designsystem/Bottom-pic/article3.jpg?width=431&mode=crop&heightratio=0.75&quality=80 431w, ../images/designsystem/Bottom-pic/article3.jpg?width=340&mode=crop&heightratio=0.75&quality=80 340w, ../images/designsystem/Bottom-pic/article3.jpg?width=304&mode=crop&heightratio=0.75&quality=80 304w"
+                        <source sizes="(max-width: 480px) 431px, (max-width: 768px) 340px, 304px" srcset={imgArticle3+"?width=431&mode=crop&heightratio=0.75&quality=80 431w", imgArticle3+"?width=340&mode=crop&heightratio=0.75&quality=80 340w", imgArticle3+"?width=304&mode=crop&heightratio=0.75&quality=80 304w"}
                         />
-                        <img alt="" class="teaser-image" loading="lazy" src="..../images/designsystem/Bottom-pic/article3.jpg?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80" />
+                        <img alt="" class="teaser-image" loading="lazy" src={imgArticle3+"?width=431&amp;mode=crop&amp;heightratio=0.75&amp;quality=80"} />
                     </picture>
 
                 </div>
