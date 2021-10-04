@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a6c34b03-3377-459a-92b0-8ac9707a0d48/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/uniadmission",
+    "appService.deploySubpath": "."
+}
